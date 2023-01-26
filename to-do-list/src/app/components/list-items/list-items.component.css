@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    font-size: 3em;
+    margin-top: 2em;
+}
+
+.container{
+    margin: auto;
+    margin-top: 10px;
+    width: 600px;
+    border:unset
+}
+
+.btntxt{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    width: inherit;
+    margin-bottom: 1em;
+
+}
+
+.textInput{
+    width: 100%;
+    border: 1px solid #adadad;
+    border-radius: 5px 0 0 5px;
+    border-right: 0;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.btnadd {
+    padding: 13px;
+    background-color: white;
+    color:#525252;
+    border: 1px solid #525252;
+    border-radius: 0 5px 5px 0;
+    
+}
+
+.btnadd:hover {
+    background-color: gray;
+    color:white
+}
+
+.listItems{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid gray;
+    height: 60px;
+    width: inherit;
+    border-radius: 5px;
+
+}
+
+.listItems > div  {
+    text-align: center;
+}
+
+.btnDelete  {
+    background-color: red;
+    border: unset;
+    color: white;
+    padding: 3px;
+    width: 40px;
+    height: 3em;
+    margin: 8px 15px 2px 2px;
+    border-radius: 6px;
+}
+
+.txtInput{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5px;
+    align-items: center ;
+}
+
+.txtInput > input {
+    margin-right: 7px;
+}
+
+.todo-complete {
+    text-decoration: line-through;
+  }
